@@ -3,12 +3,12 @@ package recordemo;
 public record Circle(double radius) {
 
 
-    // Instance method to calculate area
+
     public double area() {
         return Math.PI * radius * radius;
     }
 
-    // Instance method to calculate circumference
+
     public double circumference() {
         return 2 * Math.PI * radius;
     }

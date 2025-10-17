@@ -1,4 +1,4 @@
-package student;
+package Problem5;
 
 public class Major {
     private static int nextId = 1;

@@ -36,6 +36,24 @@ public class IntegerListTest
                 int size = scan.nextInt();
                 list = new IntegerList(size);
                 list.randomize();
+                list.print();
+                System.out.println("enter the value to add:");
+                int value = scan.nextInt();
+                list.addElement(value);
+                list.print();
+                System.out.println("After removing 12:");
+                list.removeFirst(12);
+                list.print();
+                System.out.println("Adding two same values:");
+                list.addElement(13);
+                list.addElement(13);
+                System.out.println("After adding 13 twice");
+                list.print();
+                System.out.println("After testing removeall(13)");
+                list.removeAll(13);
+                list.print();
+
+
                 break;
             case 2:
                 list.print();
